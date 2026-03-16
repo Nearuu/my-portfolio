@@ -9,21 +9,24 @@ const certs = [
     title: "Bagian Ini masih belum selesai",
     issuer: "For Real Official",
     date: "Jan 2024",
-    image: "/pic/front1.jpg",
+    // REVISI: Tambahkan /my-portfolio di depan path image
+    image: "/my-portfolio/pic/front1.jpg",
     color: "from-amber-400 to-orange-600",
   },
   {
     title: "//////////////",
     issuer: "Percaya Aja Corp",
     date: "Mar 2024",
-    image: "/pic/c2.jpg",
+    // REVISI: Tambahkan /my-portfolio di depan path image
+    image: "/my-portfolio/pic/c2.jpg",
     color: "from-blue-400 to-indigo-600",
   },
   {
     title: ".....................",
     issuer: "Sheshhh Institute",
     date: "Dec 2023",
-    image: "/pic/c3.jpg",
+    // REVISI: Tambahkan /my-portfolio di depan path image
+    image: "/my-portfolio/pic/c3.jpg",
     color: "from-emerald-400 to-teal-600",
   },
 ];

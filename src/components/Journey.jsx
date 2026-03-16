@@ -9,7 +9,8 @@ const journeyData = [
     title: "The NPC Era",
     subtitle: "Awal Mula Kehidupan",
     desc: "Aku lahir di Ciamis pada 5 Maret 2007 dan tumbuh di kota yang sama. Perjalanan mengenal teknologi dimulai sejak aku masih TK, di masa ketika warnet menjadi tempat pertama untuk menjelajahi dunia digital. Dari sana, rasa penasaran terhadap komputer dan internet mulai tumbuh dan menjadi titik awal perjalanan yang terus berkembang hingga sekarang.",
-    img: "/pic/pii1.jpg",
+    // REVISI: Tambahkan /my-portfolio di depan path image
+    img: "/my-portfolio/pic/pii1.jpg",
     icon: User,
     color: "from-blue-500 to-cyan-500",
     year: "Phase 1"
@@ -18,7 +19,8 @@ const journeyData = [
     title: "The Creative Awakening",
     subtitle: "Awal Mula Mengenal dunia Kreatif",
     desc: "Saat memasuki masa remaja, aku mulai menjelajahi dunia kreatif digital seperti desain grafis dan video editing. Perjalananku dimulai dari membuat AMV (Anime Music Video), menggabungkan potongan anime dengan musik untuk menciptakan cerita visual. Di awal eksplorasi ini aku belajar menggunakan berbagai aplikasi seperti Kinemaster, Alight Motion, PixelLab, dan PicsArt, yang menjadi langkah awal dalam mengembangkan kreativitas digital.",
-    img: "/pic/pii2.jpg",
+    // REVISI: Tambahkan /my-portfolio di depan path image
+    img: "/my-portfolio/pic/pii2.jpg",
     icon: Code2,
     color: "from-violet-500 to-purple-500",
     year: "Phase 2"
@@ -27,7 +29,8 @@ const journeyData = [
     title: "The Creator Path",
     subtitle: "Mulai Fokus Pada Tujuan",
     desc: "Di fase ini aku mulai memfokuskan diri pada dunia kreatif digital seperti desain grafis, ilustrasi, dan video editing. Aku juga mulai membuat berbagai project sebagai sarana belajar sekaligus membangun portofolio yang akan merepresentasikan perjalanan dan perkembangan kreatifku.",
-    img: "/pic/pi2.jpg",
+    // REVISI: Tambahkan /my-portfolio di depan path image
+    img: "/my-portfolio/pic/pi2.jpg",
     icon: Rocket,
     color: "from-orange-500 to-red-500",
     year: "Phase 3"

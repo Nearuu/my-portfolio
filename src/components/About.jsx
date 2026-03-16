@@ -51,13 +51,13 @@ export default function About() {
             <div className="relative w-full max-w-md mx-auto aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 bg-zinc-900/50 backdrop-blur-sm shadow-2xl transition-transform duration-500 group-hover:scale-[1.02] group-hover:rotate-1">
               
               {/* Image Placeholder / Avatar Area */}
-              {/* Ganti src dengan foto profil aslimu */}
               <div className="absolute inset-2 rounded-2xl overflow-hidden bg-zinc-800">
                 <div className="w-full h-full bg-gradient-to-br from-zinc-700 to-zinc-900 flex items-center justify-center relative">
                    
-                <img src="profil.jpg" />
+                {/* REVISI: Tambahkan /my-portfolio/ di depan nama file */}
+                <img src="/my-portfolio/profil.jpg" alt="Profile Rava" className="object-cover w-full h-full" />
                    
-                   <User size={64} className="text-white/20" />
+                   <User size={64} className="text-white/20 absolute" />
                    
                    {/* Overlay Glitch Effect */}
                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />

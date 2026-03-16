@@ -8,7 +8,8 @@ const skillsData = [
   { 
     name: "Reactjs", 
     category: "Tech", 
-    icon: "/icons/react.svg", 
+    // REVISI: Tambahkan /my-portfolio di depan path icon
+    icon: "/my-portfolio/icons/react.svg", 
     level: 70, 
     color: "group-hover:shadow-blue-500/20",
     glow: "bg-blue-500"
@@ -16,7 +17,8 @@ const skillsData = [
   { 
     name: "Photoshop", 
     category: "Creative", 
-    icon: "/icons/photoshop.svg", 
+    // REVISI: Tambahkan /my-portfolio di depan path icon
+    icon: "/my-portfolio/icons/photoshop.svg", 
     level: 85, 
     color: "group-hover:shadow-blue-600/20",
     glow: "bg-blue-600"
@@ -24,7 +26,8 @@ const skillsData = [
   { 
     name: "Figma", 
     category: "Creative", 
-    icon: "/icons/figma.svg", 
+    // REVISI: Tambahkan /my-portfolio di depan path icon
+    icon: "/my-portfolio/icons/figma.svg", 
     level: 90, 
     color: "group-hover:shadow-purple-500/20",
     glow: "bg-purple-500"
@@ -32,7 +35,8 @@ const skillsData = [
   { 
     name: "Clip Studio Paint", 
     category: "Creative", 
-    icon: "/icons/csp.svg", 
+    // REVISI: Tambahkan /my-portfolio di depan path icon
+    icon: "/my-portfolio/icons/csp.svg", 
     level: 90, 
     color: "group-hover:shadow-cyan-400/20",
     glow: "bg-cyan-400"
@@ -40,7 +44,8 @@ const skillsData = [
   { 
     name: "Davinci Resolve", 
     category: "Creative", 
-    icon: "/icons/davincii.svg", 
+    // REVISI: Tambahkan /my-portfolio di depan path icon
+    icon: "/my-portfolio/icons/davincii.svg", 
     level: 85, 
     color: "group-hover:shadow-rose-500/20",
     glow: "bg-rose-500"
@@ -48,7 +53,8 @@ const skillsData = [
   { 
     name: "Affinity", 
     category: "Creative", 
-    icon: "/icons/affinity.svg", 
+    // REVISI: Tambahkan /my-portfolio di depan path icon
+    icon: "/my-portfolio/icons/affinity.svg", 
     level: 95, 
     color: "group-hover:shadow-indigo-500/20",
     glow: "bg-indigo-500"

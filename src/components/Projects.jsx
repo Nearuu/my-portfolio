@@ -11,8 +11,9 @@ const allProjects = [
     title: "UI/UX Design",
     category: "UI/UX",
     desc: "Designing intuitive and visually engaging interfaces focused on user experience. This project explores layout structure, usability, and modern UI components to create a clean and functional digital product.",
-    image: "/pic/poo1.jpg",
-    tech: ["Affinity",],
+    // REVISI: Tambahkan /my-portfolio di depan path image
+    image: "/my-portfolio/pic/poo1.jpg",
+    tech: ["Affinity"],
     link: "#",
     github: "#",
   },
@@ -21,7 +22,8 @@ const allProjects = [
     title: "Typography Design",
     category: "Design",
     desc: "A typography exploration focusing on composition, hierarchy, and expressive lettering. The project highlights how type can become the main visual element in a design.",
-    image: "/pic/po2.jpg",
+    // REVISI: Tambahkan /my-portfolio di depan path image
+    image: "/my-portfolio/pic/po2.jpg",
     tech: ["Affinity"],
     link: "#",
     github: "#",
@@ -31,7 +33,8 @@ const allProjects = [
     title: "TCG Design",
     category: "Design",
     desc: "A custom Trading Card Game concept featuring character illustration, ability systems, and card layout design. The project focuses on balancing visual storytelling with functional game mechanics.",
-    image: "/pic/po3.jpg",
+    // REVISI: Tambahkan /my-portfolio di depan path image
+    image: "/my-portfolio/pic/po3.jpg",
     tech: ["Affinity"],
     link: "#",
     github: "#",
@@ -41,7 +44,8 @@ const allProjects = [
     title: "Poster Movie Design",
     category: "Design",
     desc: "A cinematic poster design exploring composition, lighting, and storytelling through visuals. The project aims to capture emotion and narrative within a single frame.",
-    image: "/pic/po4.jpg", // Ganti gambar jika ada
+    // REVISI: Tambahkan /my-portfolio di depan path image
+    image: "/my-portfolio/pic/po4.jpg", // Ganti gambar jika ada
     tech: ["Affinity"],
     link: "#",
     github: "#",

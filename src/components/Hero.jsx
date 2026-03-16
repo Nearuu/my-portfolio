@@ -53,7 +53,8 @@ export default function Hero() {
         <video
           autoPlay loop muted playsInline
           className="w-full h-full object-cover opacity-60"
-          src="/bg.mp4"
+          // REVISI: Tambahkan /my-portfolio di depan path video
+          src="/my-portfolio/bg.mp4"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-transparent to-[#0a0a0a]" />
         <div className="absolute inset-0 opacity-20 pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')] brightness-100 contrast-150 mix-blend-overlay"></div>
@@ -121,9 +122,9 @@ export default function Hero() {
           </button>
           
           {/* Button 2: Download CV */}
-          {/* Ganti '/cv.pdf' dengan nama file CV kamu yang asli di folder public */}
           <a 
-            href="/cv.pdf" 
+            // REVISI: Tambahkan /my-portfolio di depan path CV
+            href="/my-portfolio/cv.pdf" 
             download="My_CV.pdf"
             className="group px-8 py-4 bg-white/5 border border-white/10 text-white rounded-full font-medium backdrop-blur-sm transition-all hover:bg-white/10 hover:border-white/30 flex items-center gap-2 cursor-pointer"
           >
